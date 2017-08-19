@@ -443,18 +443,18 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Resources
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Resources
+  - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\walkthrough-v4\walkthrough-v2
+  m_LastProjectPath: C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\walkthrough-v4\walkthrough-v4
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 402b0000
-    m_LastClickedID: 11072
+    m_SelectedIDs: 08270000
+    m_LastClickedID: 9992
     m_ExpandedIDs: 0000000008270000042900000c2900001a2a0000642b00003a2e00004a2e0000dc2e0000d4310000d6310000d8310000da310000dc310000de310000e0310000e2310000e4310000e6310000e831000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -510,7 +510,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300007c2e00005a35000060be00001ad0000022d00000eecf0000542b00008a2c00007049feffda310000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
