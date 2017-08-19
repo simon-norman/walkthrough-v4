@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -42,10 +42,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 683, y: 492}
+  m_MinSize: {x: 681, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 51
+  controlID: 13
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -91,8 +91,8 @@ MonoBehaviour:
     y: 0
     width: 261
     height: 544
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -208,10 +208,10 @@ MonoBehaviour:
     y: 0
     width: 1285
     height: 947
-  m_MinSize: {x: 406, y: 492}
+  m_MinSize: {x: 404, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 52
+  controlID: 14
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -232,10 +232,10 @@ MonoBehaviour:
     y: 0
     width: 1285
     height: 544
-  m_MinSize: {x: 406, y: 221}
-  m_MaxSize: {x: 8006, y: 4021}
+  m_MinSize: {x: 404, y: 221}
+  m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
-  controlID: 53
+  controlID: 15
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -254,8 +254,8 @@ MonoBehaviour:
     y: 0
     width: 1024
     height: 544
-  m_MinSize: {x: 204, y: 221}
-  m_MaxSize: {x: 4004, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -443,19 +443,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Resources
+    - Assets/OVR/Prefabs
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Resources
+  - Assets/OVR/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Simon\Documents\PCandTech\MySoftware\spacelab\virtualreality\walkthrough-v4\walkthrough-v4
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 23}
-    m_SelectedIDs: 902a0000
-    m_LastClickedID: 10896
-    m_ExpandedIDs: 0000000008270000762800007e28000084290000902a0000b02a0000f42a0000282c0000922d0000a42d0000382e00004431000046310000483100004a3100004c3100004e310000503100005231000054310000563100005831000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 199}
+    m_SelectedIDs: fa270000
+    m_LastClickedID: 10234
+    m_ExpandedIDs: 000000000827000068270000842800008c28000098290000d42a0000f62a00003a2b0000462b00005c2c0000c82d0000e02d0000502e0000762e00006e31000070310000723100007431000076310000783100007a3100007c3100007e310000803100008231000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -483,7 +483,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000008270000762800007e28000084290000b02a0000f42a0000282c0000922d0000a42d0000382e00004431000046310000483100004a3100004c3100004e3100005031000052310000543100005631000058310000
+    m_ExpandedIDs: 0000000008270000842800008c28000098290000d42a0000f62a00003a2b00005c2c0000c82d0000e02d0000762e00006e31000070310000723100007431000076310000783100007a3100007c3100007e3100008031000082310000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -601,7 +601,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 822dfcff28a8fcfff4b7fcff36b0fdff38b0fdff78b1fdff5a31feff7ab0feff7eb0feffa2cbffffe0fbffff00000000
+    m_ExpandedIDs: dab7fdff1e17feffe217feff8219feffba7bfeffc67bfeff0a84feffd284feff7286feff14abfeff20abfeff1efafeff2afafeff3c56ffff4856ffffbc81ffffc881ffff1e94ffff2a94ffff3a94ffffa8f1ffffd0fbffffd2fbffffd4fbffffe0fbffff00000000c43e0000f83e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

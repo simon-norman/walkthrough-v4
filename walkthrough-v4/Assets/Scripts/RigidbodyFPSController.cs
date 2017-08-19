@@ -25,6 +25,30 @@ public class RigidbodyFPSController : MonoBehaviour
 
     void FixedUpdate()
     {
+
+        void ForwardMovement()
+        {
+            //Define the forward vector using your facing direction
+            Vector3 forward = transform.TransformDirection(Vector3.forward);
+
+            // The touchpad is button 0. If the touchpad is being held down...
+            if (Input.GetMouseButton(0))
+            {
+                // Add the acceleration to the current velocity and clamp it to the maxVelocity
+                currentVelocity += acceleration;
+                currentVelocity = Mathf.Clamp(currentVelocity, 0.0F, maxVelocity);
+
+                // Then move the CharacterController forward
+                controller.SimpleMove(forward * currentVelocity);
+            }
+
+            // If the touchpad was released on this frame, stop movement and reset current speed.
+            if (Input.GetMouseButtonUp(0))
+            {
+                currentVelocity = 0.0F;
+            }
+        }
+
         if (grounded)
         {
             // Calculate how fast we should be moving

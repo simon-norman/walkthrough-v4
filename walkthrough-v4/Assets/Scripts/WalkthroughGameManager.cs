@@ -35,5 +35,5 @@ using UnityEngine;
             GameObject warehouse = PhotonNetwork.Instantiate("Warehouse", spawnPoint.position, spawnPoint.rotation, 0) as GameObject;
             pl.GetComponent<RigidbodyFPSController>().enabled = true;
             pl.GetComponent<RigidbodyFPSController>().fpsCam.SetActive(true);
-        }
+    }
     }
